@@ -365,7 +365,44 @@ nav
 } 
 
 
-
-
 /* sitereport */
 
+.site
+{
+	height: 100vh;
+	background-image: url(5five.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.site1
+{
+	color: whitesmoke;
+	font-size: 40px;
+	cursor: progress;
+    padding-left: 5%;
+	padding-top: 5%;
+}
+
+.container5
+{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto;
+}
+
+.site2
+{
+    background-color: azure;
+    border: 2px solid black;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin: 50px 50px 0px 50px;
+    height: 450px;
+    width: 93%;
+    border-radius: 45px ;
+	padding-left: 10px;
+} 
