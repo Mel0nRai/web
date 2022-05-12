@@ -409,7 +409,11 @@ nav
 .site3
 {
     border: 2px solid black;
+<<<<<<< HEAD
     background-color: whitesmoke;
+=======
+    background-color: mediumslateblue;
+>>>>>>> 8f726d2c664fb38254dda4613490a9dc05a1c68e
     font-size: 25px;
     font-weight: bold; 
     text-align: center;
@@ -470,6 +474,7 @@ nav
     grid-row: 2/2;
 }
 
+<<<<<<< HEAD
 .v5
 {
     background-image: url();
@@ -503,3 +508,7 @@ nav
     margin: 50px 50px 0px 50px;
     padding-top: 15px;
 }
+=======
+
+
+>>>>>>> 8f726d2c664fb38254dda4613490a9dc05a1c68e
