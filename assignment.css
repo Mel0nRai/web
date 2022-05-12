@@ -258,7 +258,6 @@ nav
     font-size: 15px;
     margin-bottom: 5px;
     border-radius: 10px;
-    resize: none;
     height: 150px;
 	width: 280px;
 }
@@ -271,6 +270,7 @@ nav
 	padding-top: 9px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
     border:2px solid transparent;
     border-radius: 15px;
@@ -326,10 +326,11 @@ nav
 {
     background-color: azure;
     border: 2px solid black;
-    text-align: center;
+    text-align: start;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 15px 15px 15px;
     margin: 50px 50px 0px 50px;
     height: 450px;
     width: 350px;
@@ -340,10 +341,11 @@ nav
 {
     background-color: azure;
     border: 2px solid black;
-    text-align: center;
+    text-align: start;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 15px 15px 15px; 
     margin: 50px 50px 0px 0px;
     height: 450px;
     width: 350px;
@@ -354,10 +356,11 @@ nav
 {
     background-color: azure;
     border: 2px solid black;
-    text-align: center;
+    text-align: start;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 15px 15px 15px;
     margin: 50px 50px 0px 0px;
     height: 450px;
     width: 350px;
@@ -369,12 +372,8 @@ nav
 
 .site
 {
-	height: 100vh;
-	background-image: url(5five.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+  background-color: lightblue; 
+}    
 
 .site1
 {
@@ -406,3 +405,70 @@ nav
     border-radius: 45px ;
 	padding-left: 10px;
 } 
+
+.site3
+{
+    border: 2px solid black;
+    background-color: mediumslateblue;
+    font-size: 25px;
+    font-weight: bold; 
+    text-align: center;
+    height: 650px;
+    width: 93%;
+    border-radius: 45px;
+    margin: 50px 50px 0px 50px;
+    padding-top: 15px;
+}
+
+
+.site4
+{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 30px 30px 30px 30px;
+ 
+}
+
+.v1
+{
+    background-image: url(index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;  
+    grid-row: 1/2;
+}
+
+.v2
+{
+    background-image: url(portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.v3
+{
+    background-image: url(contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+
+.v4
+{
+    background-image: url(blog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    grid-row: 2/2;
+}
+
+
+
