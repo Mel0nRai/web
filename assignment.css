@@ -393,7 +393,7 @@ nav
 
 .site2
 {
-    background-color: azure;
+    background-color: beige;
     border: 2px solid black;
     text-align: left;
     font-size: 15px;
@@ -409,11 +409,7 @@ nav
 .site3
 {
     border: 2px solid black;
-<<<<<<< HEAD
-    background-color: whitesmoke;
-=======
-    background-color: mediumslateblue;
->>>>>>> 8f726d2c664fb38254dda4613490a9dc05a1c68e
+    background-color: beige;
     font-size: 25px;
     font-weight: bold; 
     text-align: center;
@@ -433,7 +429,6 @@ nav
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     padding: 30px 30px 30px 30px;
- 
 }
 
 .v1
@@ -474,7 +469,6 @@ nav
     grid-row: 2/2;
 }
 
-<<<<<<< HEAD
 .v5
 {
     background-image: url();
@@ -498,7 +492,7 @@ nav
 .site5
 {
     border: 2px solid black;
-    background-color: whitesmoke;
+    background-color: beige;
     font-size: 25px;
     font-weight: bold; 
     text-align: center;
@@ -508,7 +502,4 @@ nav
     margin: 50px 50px 0px 50px;
     padding-top: 15px;
 }
-=======
 
-
->>>>>>> 8f726d2c664fb38254dda4613490a9dc05a1c68e
